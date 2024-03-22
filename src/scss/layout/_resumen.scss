@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+
+.contenido-resumen {
+    p {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        color: v.$azul;
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+}
+
+.contenedor-servicio {
+    border-bottom: 2px solid v.$azul;
+    
+}
+
